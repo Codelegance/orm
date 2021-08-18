@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/orm",
+    "name": "codelegance/doctrine-orm",
     "type": "library",
     "description": "Object-Relational-Mapper for PHP",
     "keywords": ["orm", "database"],
@@ -26,8 +26,8 @@
         "symfony/yaml": "~2.3|~3.0|~4.0",
         "phpunit/phpunit": "~4.0"
     },
-    "suggest": {
-        "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
+    "replace": {
+        "doctrine/orm": "^2.5.14"
     },
     "autoload": {
         "psr-0": { "Doctrine\\ORM\\": "lib/" }
